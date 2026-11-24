@@ -1,0 +1,14 @@
+# EDIT ALL paths below before running. These are placeholders, not a copy of
+# the original historical resolved YAML. Relative paths resolve from this file.
+paths:
+  train_csv: /path/to/final_patient_72_8_20/train_runtime.csv
+  val_csv: /path/to/final_patient_72_8_20/val_runtime.csv
+  raw_dir: /path/to/rgb_images
+  umap_dir: /path/to/uncertainty_scale_u16
+  ret_ckpt: /path/to/RETFound_mae_natureCFP.pth
+train:
+  batch_size: 4
+  num_workers: 0
+  pin_memory: true
+  persistent_workers: false
+  drop_last: true

@@ -1,0 +1,15 @@
+{
+  "protocol": "A3-Final72-seed3407-file-sha256",
+  "description": "File-byte fingerprints of the original server-fixed patient-level split; no image data included",
+  "source_data_provenance": "operator server original final_patient_72_8_20; not externally authenticated",
+  "files": {
+    "train_csv": {
+      "sha256": "a361ce88a65daca6876ed38edb8f17fb5d74ff4472c088f046b0567b407c6235",
+      "rows": 4414
+    },
+    "val_csv": {
+      "sha256": "cb6b3b88885b1439569869c18c26dd2aea28fd5c2327eea760da7a0bc3c7cc1b",
+      "rows": 493
+    }
+  }
+}

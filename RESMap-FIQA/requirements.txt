@@ -1,0 +1,13 @@
+# Versions detected in the packaging environment. Exact package/build compatibility is not independently validated.
+# For CUDA PyTorch, install the matching official PyTorch build first.
+torch==1.9.1
+torchvision==0.10.1
+timm==0.6.13
+numpy==1.23.5
+opencv-python==4.13.0.92
+Pillow==9.3.0
+scipy==1.10.1
+pandas==2.0.3
+PyYAML==6.0.3
+huggingface-hub==0.36.2
+filelock  # NOT INSTALLED IN PACKAGING ENVIRONMENT; select compatible version
