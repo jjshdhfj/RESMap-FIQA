@@ -1,0 +1,20 @@
+{
+  "status": "RESTRICTED_REVIEW_NOT_PUBLIC",
+  "source_zip_sha256": "cc985270df48477399651ab59527998f1b22065febc6be8b7f59d574b74d2008",
+  "gfenet_files_removed": [
+    "resmap_generator/models/networks.py",
+    "resmap_generator/models/base_model.py",
+    "resmap_generator/models/__init__.py",
+    "resmap_generator/models/gfenet_model.py",
+    "resmap_generator/models/backbone/gfenet_backbone.py",
+    "resmap_generator/models/guided_filter_pytorch/guided_filter_attention.py",
+    "resmap_generator/models/guided_filter_pytorch/HFC_filter.py",
+    "resmap_generator/models/guided_filter_pytorch/box_filter.py",
+    "resmap_generator/models/guided_filter_pytorch/guided_filter.py",
+    "resmap_generator/models/guided_filter_pytorch/__init__.py"
+  ],
+  "samples_retained": 10,
+  "samples_source": "EyeQ/EyePACS; public redistribution UNVERIFIED",
+  "checkpoints_included": false,
+  "original_validated_a3_and_inference_sources_unchanged": true
+}

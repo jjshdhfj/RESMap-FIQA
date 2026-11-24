@@ -1,0 +1,73 @@
+{
+  "release": "RESMap-FIQA-Release",
+  "example_count": 10,
+  "candidate_model_source_untouched": true,
+  "validated_example_stems": [
+    "8388_right",
+    "22668_left",
+    "222_right"
+  ],
+  "all_ten_resmaps_precomputed_real": true,
+  "cpu_pixel_identical_examples": 3,
+  "all_ten_predictions_checked_in_build": true,
+  "dependency_versions": {
+    "found": {
+      "torch": "1.9.1",
+      "torchvision": "0.10.1",
+      "timm": "0.6.13",
+      "numpy": "1.23.5",
+      "opencv-python": "4.13.0.92",
+      "Pillow": "9.3.0",
+      "scipy": "1.10.1",
+      "pandas": "2.0.3",
+      "PyYAML": "6.0.3",
+      "huggingface-hub": "0.36.2"
+    },
+    "missing": [
+      "filelock"
+    ]
+  },
+  "copied_candidate_file_sha256": {
+    "models_vit.py": "f5a91312fcbac14141405d24a92ac3a95e2573e98260bbd3c5b044792edd2f75",
+    "README.md": "da425d08b3107b7242d043f53bfad974816d2e31a5f4245ace317fa0fae95bcd",
+    "release_manifest.json": "e51ca00e9baacc518b97109cb2d01c2e1cc873f96b6adb638163c702af841a8a",
+    "RESMAP_GENERATOR_README.md": "65021c5cdfac17158fdac5a56b71ee443ee6061c27841a709f8cbd6cb8f90419",
+    "requirements.in": "b5a31cde67746bbb9280ec9b303e4831e6d1b00ff48453ca2e7aedd6b895fd51",
+    "tools/train_a3_b15_taskquery_umap_final72.py": "86ebc38adfd96b5087ced9266f3ad4fa8a8ac46028a949eccd010d5483d9415c",
+    "tools/test_a3_only_locked_final72.py": "e5be1016ffb2ae51391b2e277d3a33bfca01e900adac71825b8b3a39f0459bfa",
+    "tools/compare_a3_predictions.py": "b63f8b883136a6076067fd615cfec8be6d9449011f17d23298b6ae0d110ada1e",
+    "resmap_generator/generator_source_sha256.json": "f9a474b63c4bad48f7ad415790fa6cf99bcb9fc4d7a83bf7a99e4a20cd34ae80",
+    "resmap_generator/uhead_v1.py": "05f9995ef59db9c350c7dea065b2e5f2197a74e8f1e3e0eb02c505bba4ee9821",
+    "resmap_generator/infer_uhead_real_v1.py": "f8aa720d2e4a45cc9c34e1469174b1098c5be8099c258fe9b85be8de0a277357",
+    "resmap_generator/models/networks.py": "470fb308755b79b796d5987a46b4ba996d2a3aeb56e90f0716d95a703e1078ea",
+    "resmap_generator/models/base_model.py": "e5ea0118f995e5cf73baa2edafeccbd0ac085ef9bc86f8e0d3f409d1da455fee",
+    "resmap_generator/models/__init__.py": "d68fc90a5c2aa3ed3bb1833f35d112a47c5afcdb63ca97259c51e5d5629b0684",
+    "resmap_generator/models/gfenet_model.py": "805bbec91c6ca8b8ec697ddcc53db6c4c9f2ef37df72084b1cb62df567d5e792",
+    "resmap_generator/models/backbone/gfenet_backbone.py": "d85afa1ffe1e98f1bd1eaf52fccfdfe776b2020f4bceb2b8cb836aaf12889817",
+    "resmap_generator/models/guided_filter_pytorch/guided_filter_attention.py": "fced41ec85e4fa3c11b3d7b41ca60f1c09cfee8a067392b346c35564bdd76c96",
+    "resmap_generator/models/guided_filter_pytorch/HFC_filter.py": "d19102da20b8dedaa1fe4ae9d24658265e99c5f418a5c26f5d16b03386b9da6c",
+    "resmap_generator/models/guided_filter_pytorch/box_filter.py": "694f5d78c46c07ea76cdd949b956956baa9ba5b0fff6672a3dc27e120d0f16f5",
+    "resmap_generator/models/guided_filter_pytorch/guided_filter.py": "0928109cc8d224fcfde95b0a9b35a06a412d15cc33abce0dd0e791c1f9aa36d1",
+    "resmap_generator/models/guided_filter_pytorch/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "util/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "util/pos_embed.py": "313da4d9178b59c429907cde34ab584409f1e20d9fa8f9d113642610d9548c09",
+    "arq/data.py": "450186e4033386706e9d13c49279fdf28d23d9e34b8b2c6d88de90ad396e8345",
+    "arq/a3_sampler.py": "fb54681f692cba9ea30bd625b8d9a28345aaaa401ae83096a58b1317deffe3cf",
+    "arq/retfound_4head_clean.py": "2ad77e05896e34ce95166248e5aa287a489ddf66d44813565c785dd8ef55be84",
+    "arq/a3_geometry.py": "0528561c8d174c1358898ecbb8d4409624c0230a5f9529e14c6df805f0480a9d",
+    "arq/retfound_b15_taskquery_4head.py": "d73fd0aea1f32cc523f9f9392e1a057ce3c4354619620ecfe8822d2133c713ff",
+    "arq/retfound_b15_taskquery_umap_4head.py": "a9d4f1cd4429d274f108b93374a4e509977cf7f1d2416faa64fbc17c6fc43480",
+    "arq/constants.py": "9023333f532359f87764c4d9b44884615568ae48879b8f9ad5fa1c61b021c41d",
+    "arq/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "arq/final72_rgb_umap_dataset.py": "b4188f5a530771fa4edf09d0a3155113bb9dc4164c232ded8745b0983161189e"
+  },
+  "allowed_document_changes": [
+    "README.md",
+    "RESMAP_GENERATOR_README.md",
+    "requirements.txt"
+  ],
+  "external_weights_not_redistributed": true,
+  "example_redistribution_rights_confirmed_by_operator": false,
+  "clean_train_install_verified": false,
+  "remarks": "Resumed from a completed 10-image inference run after fixing a README-only false-positive. Public image redistribution not authorized by this report."
+}
